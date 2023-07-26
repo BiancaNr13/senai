@@ -1,0 +1,31 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 26/07/2023
+Var
+// Seção de Declarações das variáveis 
+numero:real
+controle:inteiro
+soma:real
+quantidade:real
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+
+
+escreval("escolha dois numeros para efetuar a soma")
+leia(numero)
+escreval("escolha dois numeros para efetuar a soma")
+leia(quantidade)
+
+  soma <- numero + quantidade
+
+escreva("a soma e", soma)
+
+
+Fimalgoritmo
+
+
+Faça um Programa que peça dois números e imprima o maior deles.
