@@ -10,6 +10,7 @@ numero:real
 controle:inteiro
 soma:real
 quantidade:real
+maior_numero:real
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
 
@@ -22,9 +23,15 @@ leia(quantidade)
 
   soma <- numero + quantidade
 
-escreva("a soma e", soma)
+escreval("a soma e", soma)
+
+ numero <- quantidade + maior_numero
+ 
+escreval("o maior numero e:")
+leia(maior_numero)
+
+
 
 Fimalgoritmo
 
-
-Faça um Programa que peça dois números e imprima o maior deles.
+escreval("maior numero", maior_numero)

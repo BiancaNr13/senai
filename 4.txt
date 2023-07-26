@@ -1,0 +1,52 @@
+Algoritmo "semnome"
+// Disciplina  :  [Linguagem e Lógica de Programação] 
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 26/07/2023
+Var
+// Seção de Declarações das variáveis 
+numero:real
+controle:inteiro
+soma:real
+quantidade:real
+maior_numero:real
+valor:caractere
+sexo:caractere
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+escreval("escolha um valor:")
+leia(numero)
+
+se numero >= 0 entao
+ valor <- "positivo"
+senao
+ valor <-"negativo"
+fimse
+
+escreval("valor : ", valor)
+
+escreval("digite f para sexo feminino e m para sexo masculino")
+leia(sexo)
+
+se sexo = "m" entao
+ escreval("masculino")
+senao
+se sexo = "f" entao
+ escreval("feminino")
+senao
+ escreval("sexo invalido")
+fimse
+fimse
+
+
+
+
+Fimalgoritmo
+
+
+
+Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
